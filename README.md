@@ -2,7 +2,7 @@
 
 Branch|[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
 ---|---
-master|[![Build Status](https://travis-ci.org/github/SebastianBecker2/TrafficSim.svg?branch=master)](https://travis-ci.org/github/SebastianBecker2/TrafficSim)
+master|[![Build Status](https://travis-ci.org/SebastianBecker2/TrafficSim.svg?branch=master)](https://travis-ci.org/SebastianBecker2/TrafficSim)
 
 This project is intended as a way to get into some SFML using dear imgui.
 
