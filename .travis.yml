@@ -17,4 +17,4 @@ script:
   - make
   - ./TrafficSimQMake
   # clang-format check
-  - clang-format main.cpp > tmp.txt ; diff main.cpp tmp.txt --suppress-common-lines -y
+  # - clang-format main.cpp > tmp.txt ; diff main.cpp tmp.txt --suppress-common-lines -y
