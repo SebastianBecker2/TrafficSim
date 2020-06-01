@@ -11,10 +11,11 @@ before_install:
 install: 
   - sudo apt-get install -qq g++-6
   - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-6 90
+  - sudo apt-get install -qq clang clang-format
 
 script: 
   - qmake
   - make
   - ./TrafficSimQMake
   # clang-format check
-  - clang-format main.cpp > tmp.txt ; diff main.cpp tmp.txt --suppress-common-liney -y
+  - clang-format main.cpp > tmp.txt ; diff main.cpp tmp.txt --suppress-common-lines -y
